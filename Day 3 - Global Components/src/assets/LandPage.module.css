@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+html, body {
+  height: 100%;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background: #efefef;
+}
+ol, ul {
+  list-style-type: none;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.cta {
+  padding: 10px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #7c1eaf, #ad5389);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cta:hover {
+  background: linear-gradient(to right, #c466f6, #b8769e);
+}
+.box {
+  padding: 80px 0;
+}
+.title {
+  font: bold 30px/30px Arial, sans-serif;
+  color: #333;
+  padding-bottom: 20px;
+}
+.descr {
+  font: normal 18px/36px Arial, sans-serif;
+  color: #666;
+  margin: 0 auto;
+}
+.clearfix::before, .clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  box-shadow: 0 1px 1px #ddd;
+  z-index: 999;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  width: 200px;
+  padding-top: 30px;
+}
+.menu {
+  float: right;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 60px;
+  padding: 40px 0 0;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu li a {
+  color: #777;
+  font-size: large;
+  text-transform: uppercase;
+}
+.menu li a:hover {
+  color: #555;
+}
+.menu li a.cta {
+  color: #fff;
+}
+.home {
+  position: relative;
+  top: 100px;
+  height: 500px;
+  background: #aad0df;
+  margin-bottom: 100px;
+}
+.founder {
+  height: 500px;
+  background: #aad0df url('http://conversionlab.no/wp-content/uploads/2013/09/finge-600-21.png') no-repeat left bottom;
+  background-size: 400px;
+}
+.founderText {
+  float: right;
+  position: relative;
+  top: 130px;
+  width: 460px;
+}
+.fTitle {
+  font: bold 42px/52px Arial, sans-serif;
+  color: #fff;
+}
+.fDescr {
+  font: bold 18px/32px Arial, sans-serif;
+  color: #555;
+  padding: 15px 0 40px 0;
+}
+.results {
+  text-align: center;
+  background: #fff;
+}
+.results .descr {
+  width: 700px;
+}
+.resultsItem {
+  padding-top: 60px;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding-right: .5%;
+  padding-top: 180px;
+}
+.column:last-child {
+  padding-right: 0;
+}
+.item1Icon {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/rocket2.png") no-repeat center top;
+}
+.item2Icon {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/money3.png") no-repeat center top;
+}
+.item3Icon {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/speed1.png") no-repeat center top;
+}
+.itemTitle {
+  font: bold 24px/24px Arial, sans-serif;
+  color: #333;
+  padding-bottom: 20px;
+}
+.itemDescr {
+  font: normal 18px/30px Arial, sans-serif;
+  color: #555;
+}
+.external {
+  height: 220px;
+}
+.externalText {
+  float: right;
+  width: 620px;
+}
+.externalImg {
+  float: left;
+  width: 280px;
+  height: 160px;
+  background: url("http://conversionlab.no/wp-content/uploads/2016/11/campaign-monitor-mbp.png") no-repeat left bottom;
+  background-size: 280px;
+  padding-top: 60px;
+}
+.process {
+  background: #fff;
+  text-align: center;
+}
+.process .title {
+  padding-bottom: 80px;
+}
+.processIcon1 {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/target-red.png") no-repeat center top;
+}
+.processIcon2 {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/blueprints-green.png") no-repeat center top;
+}
+.processIcon3 {
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/chemistry1.png") no-repeat center top;
+}
+.screen {
+  background: #fff;
+  height: 260px;
+}
+.screenText {
+  float: left;
+  width: 650px;
+}
+.screenImg {
+  float: right;
+  width: 240px;
+  height: 340px;
+  background: url("http://conversionlab.no/wp-content/uploads/2013/09/iPadmini-iPhone5s_510px1.png") no-repeat;
+  background-size: 240px;
+}
